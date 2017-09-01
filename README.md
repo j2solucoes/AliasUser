@@ -2,6 +2,18 @@
 
 Alias Github searches for users with different logins and maps them. For this task it is necessary to inform the uri Git of the repository informed and a valid user and password for Github.
 
+![image](https://user-images.githubusercontent.com/31331474/29950471-62ee7bc4-8e92-11e7-9338-9146df5a04d3.png)
+
+In the example below was searched in the Angular Rpositorio with the user jonathasas and password of the same.
+
+3 Aliases were found
+
+1 two Brandon users with brandonroberts and aboveyou00 logins
+
+2 two Mike users with BeastCode and mikeybyker logins
+
+3 James and James Ward with CrazyPython and jamesward logins
+
 A threshold of 93% was adopted and the Levenshtein algorithm was used to compare the texts.
 
 To analyze the aliases, the following heuristics are used:
