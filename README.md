@@ -2,7 +2,31 @@
 
 Alias Github searches for users with different logins and maps them. For this task it is necessary to inform the uri Git of the repository informed and a valid user and password for Github.
 
+A threshold of 93% was adopted and the Levenshtein algorithm was used to compare the texts.
 
+To analyze the aliases, the following heuristics are used:
+
+1- Calculation of Levenshtein between user name A and user B> = threshold.
+
+Or
+
+2- Calculation of Levenshtein between the first name of users A and B> = threshold and the initials of the last name are equal.
+
+Or
+
+3- email from user B until @ contains the initial and last name of user A.
+
+Or
+
+4- Mail from user B to the @ contain the initial name of user A and emailsB contain the letter the initial letter of the last name.
+
+Or
+
+5-email from user B until the @ contain the final name of user A and emailsB contain the initial letter of the first name.
+
+Or
+
+6 - email from user A to @ was not equal to "GITHUB and Levenshtein's calculation of the initial names of user A and B be >= threshold / 2 and Levenshtein's calculation enter the emails to be> = threshold)
 
 
 Procedures for use:
