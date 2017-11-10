@@ -55,3 +55,7 @@ To run only, in the root of the repository we have the file AliasUsersGitHub.rar
   
 3 Downloading the project in github and running  
 To be able to compile the project and use the compact dlls in AliasUser / AliasUser / AliasUser / Dlls External /
+
+The tool also provides the option to export the data after processing the heuristics to csv or xml and import a previously exported xml.
+
+
