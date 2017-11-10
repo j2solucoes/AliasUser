@@ -1,8 +1,11 @@
 # AliasUser
 
-The first screen of the tool is used to execute the heuristics to find the aliases
 
 Alias Github searches for users with different logins and maps them. For this task it is necessary to inform the uri Git of the repository informed and a valid user and password for Github.
+
+One point to emphasize is that the tool is designed so that the addition of new heuristics is performed easily.
+
+The first screen of the tool is used to execute the heuristics to find the aliases
 
 ![image](https://user-images.githubusercontent.com/31331474/32660737-26fbc81e-c60b-11e7-9ffd-fe4905867e3d.png)
 
@@ -70,7 +73,7 @@ The first table should contain the names of the repositories in github anilisado
 
 The second tab is used to perform validation. In it we can import the aliases found by the heuristics in the first screen and export the data after the validation.
 
-
+![image](https://user-images.githubusercontent.com/31331474/32661628-c9ffcecc-c60e-11e7-9074-df92b336c684.png)
 
 this screen is made up of four tables.
 
@@ -81,3 +84,4 @@ The second has the heuristics to be validated.
 The third one has the alias sequences and a status that will be filled after the validation of the aliases found by the heuristics with the oracle. The Status can be (P = Positive, FP = False Positive and FN = FalseNegative)
 
 The fourth table is the alias.
+
