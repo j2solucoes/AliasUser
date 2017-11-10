@@ -1,5 +1,7 @@
 # AliasUser
 
+The first screen of the tool is used to execute the heuristics to find the aliases
+
 Alias Github searches for users with different logins and maps them. For this task it is necessary to inform the uri Git of the repository informed and a valid user and password for Github.
 
 ![image](https://user-images.githubusercontent.com/31331474/32660737-26fbc81e-c60b-11e7-9ffd-fe4905867e3d.png)
@@ -58,4 +60,6 @@ To be able to compile the project and use the compact dlls in AliasUser / AliasU
 
 The tool also provides the option to export the data after processing the heuristics to csv or xml and import a previously exported xml.
 
+The second screen of the tool is used for the validation from the alias pointed after the execution of the heuristics.
 
+The second screen is composed of two tabs where the first one is used to create the data for the oracle manually that will validate the aliases. In this screen you can export and import an xml of data.
