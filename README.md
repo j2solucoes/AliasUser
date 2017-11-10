@@ -4,66 +4,53 @@ Alias Github searches for users with different logins and maps them. For this ta
 
 ![image](https://user-images.githubusercontent.com/31331474/29950471-62ee7bc4-8e92-11e7-9338-9146df5a04d3.png)
 
-In the example below was searched in the Angular Rpositorio with the user jonathasas and password of the same.
+The tool initially implements 7 alias validation heusisticas.
 
-3 Aliases were found
+Bird
 
-1 two Brandon users with brandonroberts and aboveyou00 logins
+BirdGithub
+  With a change due to being observed some projects in GitHub where users had email with github @ ....
+  Due to this particularity and disregarded these emails as alias
 
-2 two Mike users with BeastCode and mikeybyker logins
+Confora
 
-3 James and James Ward with CrazyPython and jamesward logins
+Goeminne and Mens (GOE)
 
-A threshold of 93% was adopted and the Levenshtein algorithm was used to compare the texts.
+Robles and Gonzales (ROB)
 
-To analyze the aliases, the following heuristics are used:
+Olive
 
-1- Calculation of Levenshtein between user name A and user B> = threshold.
+Kouters (Naive)
 
-Or
+The built tool can be used in three ways:
 
-2- Calculation of Levenshtein between the first name of users A and B> = threshold and the initials of the last name are equal.
+1 - Using the AliasLib.Dll Dll which allows integrating alias validations into other projects.
 
-Or
-
-3- email from user B until @ contains the initial and last name of user A.
-
-Or
-
-4- Mail from user B to the @ contain the initial name of user A and emailsB contain the letter the initial letter of the last name.
-
-Or
-
-5-email from user B until the @ contain the final name of user A and emailsB contain the initial letter of the first name.
-
-Or
-
-6 - email from user A to @ was not equal to "GITHUB and Levenshtein's calculation of the initial names of user A and B be >= threshold / 2 and Levenshtein's calculation enter the emails to be> = threshold)
-
+2 - Running the application
 
 Procedures for use:
 
 To run only, in the root of the repository we have the file AliasUsersGitHub.rar compressed.
 
-1- Unzip the file
+2.1- Unzip the file
 
-2- Run the AliasUsers FileGitHub.exe
+2.22- Run the AliasUsers FileGitHub.exe
 
-3-Inform the Url of the desired Repository
+2.3-Inform the Url of the desired Repository
 
-4-User and valid github password
+2.4-User and valid github password
 
-5-OK
+2.5-OK
 
-6-The application will show 4 tables
+2.6-The application will show 4 tables
 
-  6.1 The first with all users of the project
+  2.6.1 The first with all users of the project
   
-  6.2 The second shows the heuristics executed in the validation
+  2.6.2 The second shows the heuristics executed in the validation
   
-  6.2 The third One Alias Cluster and quantity found for each row of the second selected table..
+  2.6.2 The third One Alias Cluster and quantity found for each row of the second selected table..
   
-  6.3 The fourth users considered with Aliases for each row of the third selected table.
+  2.6.3 The fourth users considered with Aliases for each row of the third selected table.
   
-  
+3 Downloading the project in github and running  
 To be able to compile the project and use the compact dlls in AliasUser / AliasUser / AliasUser / Dlls External /
