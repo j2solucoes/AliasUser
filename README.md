@@ -55,13 +55,15 @@ To run only, in the root of the repository we have the file AliasUsersGitHub.rar
 
 5-OK
 
-6-The application will show 3 tables
+6-The application will show 4 tables
 
   6.1 The first with all users of the project
   
-  6.2 The second One Alias Cluster and quantity found.
+  6.2 The second shows the heuristics executed in the validation
   
-  6.3 The third users considered with Aliases for each row of the second selected table.
+  6.2 The third One Alias Cluster and quantity found for each row of the second selected table..
+  
+  6.3 The fourth users considered with Aliases for each row of the third selected table.
   
   
 To be able to compile the project and use the compact dlls in AliasUser / AliasUser / AliasUser / Dlls External /
