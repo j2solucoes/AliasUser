@@ -63,3 +63,21 @@ The tool also provides the option to export the data after processing the heuris
 The second screen of the tool is used for the validation from the alias pointed after the execution of the heuristics.
 
 The second screen is composed of two tabs where the first one is used to create the data for the oracle manually that will validate the aliases. In this screen you can export and import an xml of data.
+
+![image](https://user-images.githubusercontent.com/31331474/32661222-3e011508-c60d-11e7-8948-b2c94a51632e.png)
+
+The first table should contain the names of the repositories in github anilisados. The second table lists the alias sequences found and the third alias.
+
+The second tab is used to perform validation. In it we can import the aliases found by the heuristics in the first screen and export the data after the validation.
+
+
+
+this screen is made up of four tables.
+
+The first one has the names of the GitHub repositories.
+
+The second has the heuristics to be validated.
+
+The third one has the alias sequences and a status that will be filled after the validation of the aliases found by the heuristics with the oracle. The Status can be (P = Positive, FP = False Positive and FN = FalseNegative)
+
+The fourth table is the alias.
