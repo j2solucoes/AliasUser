@@ -2,7 +2,8 @@
 
 Alias Github searches for users with different logins and maps them. For this task it is necessary to inform the uri Git of the repository informed and a valid user and password for Github.
 
-![image](https://user-images.githubusercontent.com/31331474/29950471-62ee7bc4-8e92-11e7-9338-9146df5a04d3.png)
+![image](https://user-images.githubusercontent.com/31331474/32660737-26fbc81e-c60b-11e7-9ffd-fe4905867e3d.png)
+
 
 The tool initially implements 7 alias validation heusisticas.
 
